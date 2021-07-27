@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lagn="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+    <head>
+        <meta charset="UTF-8" />
+        <!--CSS-->
+
+        <!--script-->
+        <script type="text/javascript" src="/js/vanilla.js"></script>
+
+        <script type="text/javascript" src="/js/vue.js"></script>
+        <script type="text/javascript" src="/js/vuex.js"></script>
+        <script type="text/javascript" src="/js/vue-router.js"></script>
+
+    </head>
+    <header th:replace="fragment/header :: headerFragment"></header>
+    <div layout:fragment="content"></div>
+    <footer th:replace="fragment/footer :: footerFragment"></footer>
+</html>
